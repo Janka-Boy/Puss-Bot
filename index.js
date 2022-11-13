@@ -19,7 +19,7 @@ client.once(Events.ClientReady, () => {
 	console.log('Ready!');
 	client.user.setPresence({ activities: [{ name: `you`, type: ActivityType.Watching }], status: 'dnd' })
 });
-
+//What is this?
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
